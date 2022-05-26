@@ -1,0 +1,135 @@
+
+:root {
+   --hue:220;
+   --primary-color: hsl(var(--hue), 100%, 26%);
+    /* 1rem = 10px*/
+
+}
+.topHeader {
+   background-color: aquamarine;
+   border: 1px solid black;
+
+   display: flex;
+   justify-content: space-between;
+   gap: 1;
+   align-items: center;
+   padding: 1rem 1rem;
+  
+}
+.topHeader h1 {
+   padding-left: 3rem;
+}
+
+.topButton {
+   width: 12rem;
+   height: 3rem;
+   font-size: 1.4rem;
+   
+   border: 0;
+   border-radius: 4rem;
+   background-color: var(--primary-color);
+   color: white;
+   
+   margin-right: 3rem;
+
+}
+
+
+.topMenu {
+   display: flex;
+   list-style: none;
+
+}
+.topMenu a {
+   padding-left: 3rem;
+   font-size: 1.3rem;
+
+   text-decoration: none;
+}
+
+
+/* formulario */
+.formContact {
+   
+   line-height: 3rem;
+
+   justify-content: center;
+   display: flex;  
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+
+   border-radius: 2rem;
+   
+}
+
+.content {
+   border: solid 1px black;
+   padding: 1rem;
+   display: table-column;
+   background-color: gray;
+}
+.formContact .content form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+.formContact .content input {
+   width: 100%;
+   padding: 0.3rem;
+    border-radius: 0.7rem;
+    background-color: rgb(127, 246, 255,);
+    border: none;
+}
+.formContact .content label {
+  display: flex;
+  flex-direction: column;
+}
+.formContact .content label span {
+   color: red;
+   position: absolute;
+   margin-top: 3.5rem;
+}
+
+.formContact .content  select { 
+   width: 50%;
+   padding: 0.3rem;
+    border-radius: 0.7rem;
+    background-color: rgb(127, 246, 255,);
+    border: none;
+}
+.formContact .content option {
+   background-color: #8ec0da;
+
+ }
+.formContact .content label,
+.formInputLabel h1 {
+   color :#117BB0;
+}
+
+.formContact .content label:hover {
+   color: white;
+}
+.formInputLabel h1:hover {
+   color: white;
+}
+.content .submit {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 2rem;
+   
+}
+
+.content .submit button {
+   background-color: #117BB0;
+   border: solid 1px black;
+   line-height: 1.7rem;
+   border-radius: 0.3rem;
+   width: 30%;
+   cursor: pointer;
+
+   
+}
+.submit button:hover {
+   background-color: white;
+}
